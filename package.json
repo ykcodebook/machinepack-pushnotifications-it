@@ -1,0 +1,41 @@
+{
+  "name": "machinepack-pushnotifications",
+  "version": "0.3.1",
+  "description": "Send push message using Apple's APN and Google's GCM services",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "PushNotifications",
+    "machines",
+    "machinepack",
+    "apn",
+    "gcm",
+    "mobile",
+    "push",
+    "notifications"
+  ],
+  "author": "Caligone",
+  "license": "MIT",
+  "dependencies": {
+    "apn": "^1.7.3",
+    "lodash": "^3.5.0",
+    "machine": "^3.0.0",
+    "node-gcm": "^0.9.15"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "PushNotifications",
+    "machineDir": "machines/",
+    "machines": [
+      "send-push-notification"
+    ],
+    "testsUrl": "https://travis-ci.org/Caligone/machinepack-pushnotifications"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Caligone/machinepack-pushnotifications.git"
+  }
+}
