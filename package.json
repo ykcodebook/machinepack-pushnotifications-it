@@ -1,6 +1,6 @@
 {
   "name": "machinepack-pushnotifications-it",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send push message using Apple's APN and Google's GCM services",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
