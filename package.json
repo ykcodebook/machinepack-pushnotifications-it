@@ -1,6 +1,6 @@
 {
-  "name": "machinepack-pushnotifications",
-  "version": "0.3.1",
+  "name": "machinepack-pushnotifications-it",
+  "version": "0.0.1",
   "description": "Send push message using Apple's APN and Google's GCM services",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -36,6 +36,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Caligone/machinepack-pushnotifications.git"
+    "url": "git+ssh://git@github.com/Caligone/machinepack-pushnotifications.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Caligone/machinepack-pushnotifications/issues"
+  },
+  "homepage": "https://github.com/Caligone/machinepack-pushnotifications#readme",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }

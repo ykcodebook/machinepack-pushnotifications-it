@@ -18,7 +18,7 @@ module.exports = {
             required: true
         },
         deviceToken: {
-            example: '5gxadhy6 6zmtxfl6 5zpbcxmw ez3w7ksf qscpr55t trknkzap 7yyt45sc g6jrw7qz',
+            example: [],
             description: 'The token device or an array of device tokens',
             required: true
         },
